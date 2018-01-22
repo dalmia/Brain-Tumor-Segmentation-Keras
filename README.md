@@ -29,7 +29,7 @@ print(model.summary())
 Install them using [pip](https://pypi.python.org/pypi/pip).
 
 ## Contributing
-It would be great if someone is willing to implement the actual paper results. Feel free to create a Pull Request. If you are a beginner, you can refer to [this](https://opensource.guide/how-to-contribute/) for getting started.
+It would be great if someone is willing to implement the actual paper results. Feel free to create a Pull Request. If you are a beginner, you can refer [this](https://opensource.guide/how-to-contribute/) for getting started.
 
 ## Support
 If you found this useful, please consider starring(★) the repo so that it can reach a broader audience.
