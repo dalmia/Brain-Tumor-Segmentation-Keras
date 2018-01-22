@@ -3,9 +3,11 @@ Keras implementation of the multi-channel cascaded architecture introduced in th
 
 ## Architecture
 
+![cascade types](images/cascade_types.png)
+
 - Two pathways (channels) instead of the usual single feedforward. One is the **local channel**, looking at the local context of the pixel and the other is the **global channel**, looking at the global context of the image.
 
-- In the usual feedforward architecture, the *values* of the nearby pixels affect a pixel's prediction. But it makes sense that the *prediction* of nearby pixels should also influence a pixel's prediction. So, the paper proposes a cascaded architecture, where there are multiple choices (**input**, **local** and **final**) for the cascade to be applied (see figure below), leading to three possible architectures.
+- In the usual feedforward architecture, the *values* of the nearby pixels affect a pixel's prediction. But it makes sense that the *prediction* of nearby pixels should also influence a pixel's prediction. So, the paper proposes a cascaded architecture, where there are multiple choices (**input**, **local** and **final**) for the cascade to be applied (see figure above), leading to three possible architectures.
 
 - Fully connected layers replaced by 1x1 Convolutions to speed up computation.
 
